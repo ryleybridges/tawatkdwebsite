@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Tawa Taekwondo Club</title>
+        <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.min.css">
+    </head>
+    <body>
+        <div class="navbar bg-light text-dark d-flex justify-content-between">
+            <a class="navbar-brand">
+                <img src="images/tawa-tkd-logo.png" width="30" height="30" class="d-inline-block align-top" alt="Tawa TKD Logo">
+                Tawa Taekwondo Club
+            </a>
+			<div>
+				<button type="button" name="contactus" data-toggle="modal" data-target="#contactModal" class="btn btn-outline-dark" id="contactModalBtn">Contact Us</button>
+			</div>
+		</div>
+        <div class="container">
+
+        </div>
+
+        <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Contact Us</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<form>
+                            <div class="form-group">
+								<label for="contactName">Name</label>
+								<input type="text" class="form-control validationField" id="contactName" required>
+								<div class="invalid-feedback">Name is not valid</div>
+							</div>
+                            <div class="form-group">
+								<label for="contactEmail">Email</label>
+								<input type="text" class="form-control" id="contactEmail" required>
+							</div>
+                            <div class="form-group">
+								<label for="contactMessage">Message</label>
+								<textarea class="form-control" id="contactMessage"></textarea>
+							</div>
+						</form>
+					</div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Send message</button>
+                    </div>
+				</div>
+			</div>
+		</div>
+
+        <script src="node_modules\jquery\dist\jquery.min.js" charset="utf-8"></script>
+		<script src="node_modules\popper.js\dist\umd\popper.min.js" charset="utf-8"></script>
+		<script src="node_modules\bootstrap\dist\js\bootstrap.min.js" charset="utf-8"></script>
+        <script src="js/script.min.js" charset="utf-8"></script>
+    </body>
+</html>

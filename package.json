@@ -1,0 +1,33 @@
+{
+  "name": "tawatkdwebsite",
+  "version": "1.0.0",
+  "description": "Website for the Tawa Taekwondo Club",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryleybridges/tawatkdwebsite.git"
+  },
+  "author": "Ryley Bridges",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryleybridges/tawatkdwebsite/issues"
+  },
+  "homepage": "https://github.com/ryleybridges/tawatkdwebsite#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-uglify-es": "^3.3.0",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}
