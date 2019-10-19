@@ -2,10 +2,9 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    /* background-color: #ebfcff; */
 }
 
-.box {
-    height: 80%;
-    width: 90%;
-    background-image: url('/images/club-room.jpg');
-}
+/* .textInfo {
+    background-color: white;
+} */
