@@ -2,9 +2,22 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    /* background-color: #ebfcff; */
+    background-color: #74b9ff;
 }
 
-/* .textInfo {
+#main {
     background-color: white;
-} */
+}
+
+#bannerImage {
+    background-color: black;
+    height: 40%;
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+    overflow: auto;
+    height: 800px;
+    width: 600px;
+}
