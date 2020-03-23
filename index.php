@@ -85,6 +85,10 @@
 								<input type="text" name="name" class="form-control" id="contactName" required>
 							</div>
                             <div class="form-group">
+								<label for="contactSubject">Subject</label>
+								<input type="text" name="subject" class="form-control" id="contactSubject" required>
+							</div>
+                            <div class="form-group">
 								<label for="contactEmail">Email</label>
 								<input type="email" name="email" class="form-control" id="contactEmail" required>
 							</div>
