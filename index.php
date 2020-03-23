@@ -14,8 +14,8 @@
                 Tawa Taekwondo Club
             </a>
 			<div>
-                <h5>027 241 5210</h5>
-				<!-- <button type="button" name="contactus" data-toggle="modal" data-target="#contactModal" class="btn btn-outline-dark" id="contactModalBtn">Contact Us</button> -->
+                <!-- <h5>027 241 5210</h5> -->
+				<button type="button" name="contactus" data-toggle="modal" data-target="#contactModal" class="btn btn-outline-dark" id="contactModalBtn">Contact Us</button>
 			</div>
 		</div>
         <div class="container" id="main">
@@ -69,11 +69,7 @@
 
         </div>
 
-        <!-- <footer class="bg-light">
-            <p class="text-center pl-5 text-dark">&copy; Tawa Taekwondo Club 2019<br>tawatkd@xtra.co.nz<br>Website created by <a href="http://ryleybridges.com/portfolio/">Ryley Bridges</a></p>
-        </footer> -->
-
-        <!-- <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-hidden="true">
 			<div class="modal-dialog modal-dialog-centered" role="document">
 				<div class="modal-content">
 					<div class="modal-header">
@@ -83,27 +79,27 @@
 						</button>
 					</div>
 					<div class="modal-body">
-						<form>
+						<form action="contactform.php" method="post">
                             <div class="form-group">
 								<label for="contactName">Name</label>
-								<input type="text" class="form-control" id="contactName" required>
+								<input type="text" name="name" class="form-control" id="contactName" required>
 							</div>
                             <div class="form-group">
 								<label for="contactEmail">Email</label>
-								<input type="email" class="form-control" id="contactEmail" required>
+								<input type="email" name="email" class="form-control" id="contactEmail" required>
 							</div>
                             <div class="form-group">
 								<label for="contactMessage">Message</label>
-								<textarea class="form-control" id="contactMessage"></textarea>
+								<textarea class="form-control" name="message" id="contactMessage" placeholder="Your Message Here"></textarea>
 							</div>
 						</form>
 					</div>
                     <div class="modal-footer">
-                        <button type="submit" class="btn btn-primary">Send message</button>
+                        <button type="submit" name="submit" class="btn btn-primary">Send message</button>
                     </div>
 				</div>
 			</div>
-		</div> -->
+		</div>
 
         <script src="node_modules\jquery\dist\jquery.min.js" charset="utf-8"></script>
 		<script src="node_modules\popper.js\dist\umd\popper.min.js" charset="utf-8"></script>
